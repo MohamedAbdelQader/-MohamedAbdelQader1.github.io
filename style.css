@@ -1,0 +1,79 @@
+*{margin: 0;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+body{background-image: url(bb.jpg);
+background-size: cover;
+background-position: right;
+color: white;}
+header{ 
+    display: flex;
+    align-items: center;
+    border-radius:0 0 10px 10px;
+    min-width: 600px;
+}
+header:hover{background-color: #453F3C;
+             transition: all 1.5s;
+}
+main{text-align: center;}
+#myphoto{
+    border-radius: 15px;
+    margin:30px ;
+    width: 400px;
+
+}
+ul{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+}
+
+li{display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+a{text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#headerimg{
+    height: 70px;
+    width: 80px;    
+}
+.headerlist:hover{
+    transition: all 1s;
+    border-radius: 0 15px 0 15px ;
+    background-color: rgba(8, 20, 16, 0.938);
+}
+main p{width: 80%;}
+
+section{width: 85%;
+display: flex;
+justify-content: space-around;
+margin: 0 auto;
+font-size: x-large;
+min-width: 500px;
+}
+
+section div img{
+    width: 100%;
+    height: 60%;
+    border-radius: 7px 7px 0 0;
+}
+.topics{
+    border: 2px solid rgb(143, 143, 142);
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+}
+footer{ 
+    background-color: aliceblue;
+    margin: 40px auto auto;     
+    width:80%;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+footer li a img{
+    width: 30px;
+}
